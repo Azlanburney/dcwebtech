@@ -32,7 +32,7 @@
   },
   "scripts": {
     "dev": "gatsby develop -p 3333 -o",
-    "build": "gatsby build"
+    "build": "CI= npm run build"
   },
   "eslintConfig": {
     "extends": [
